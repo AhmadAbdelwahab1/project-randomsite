@@ -1,11 +1,11 @@
 #randomContainer
 {
-    border :1px solid #000;
+    border :0px;
     margin : auto ;
     display:flex;
     flex-direction:column;
     align-items:center;
-    background-color : bisque;
+    background-color :whitesmoke;
     justify-content:space-between;
     background-size: cover;
     width:50%;
