@@ -1,176 +1,66 @@
 
 var sites = [
     {
-        "name": "ahmed"
+        "name": "Front_end of Hospital Website"
         ,
-        "imgSrc":""
+        "imgSrc":"hospital1.jpg"
         ,
-        "example":""
+        "example":"https://www.jbl.de/en/online-hospital?country=bg"
      }
     ,
     {
-        "name": ""
+        "name": "Front_end of Gym Website"
         ,
-        "imgSrc":""
+        "imgSrc":"gym1.jpg"
         ,
-        "example":""
+        "example":"https://www.smart-gym.com/"
      }
      ,
      {
-        "name": ""
+        "name": "Front_end of Online_shop Website"
         ,
-        "imgSrc":""
+        "imgSrc":"online-shop1.jpg"
         ,
-        "example":""
+        "example":"https://www.ubuy.com.eg/en/"
      }
      ,
      {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
+         "name": "Front_end of University Website"
+         ,
+         "imgSrc":"school1.jpg"
+         ,
+         "example":"https://www.harvard.edu/"
      }
      ,
      {
-        "name": ""
+         "name": "Front_end of Order_Coffe Website"
+         ,
+         "imgSrc":"coffe.jpg"
         ,
-        "imgSrc":""
-        ,
-        "example":""
+        "example":"https://www.drivencoffee.com/"
      }
      ,
      {
-        "name": ""
+         "name": "Front_end of Banking Website"
+         ,
+         "imgSrc":"banking.jpg"
         ,
-        "imgSrc":""
-        ,
-        "example":""
+        "example":"https://www.nbe.com.eg/NBE/E/#/EN/Home"
      }
      ,
      {
-        "name": ""
+         "name": "Front_end of Booking_Travil Website"
+         ,
+         "imgSrc":"booking.jpg"
         ,
-        "imgSrc":""
-        ,
-        "example":""
+        "example":"https://ar.trivago.com/en?sLanguageLocale=UK"
      }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
-     ,
-     {
-        "name": ""
-        ,
-        "imgSrc":""
-        ,
-        "example":""
-     }
+     
+     
 
 ]
 
-console.log(ahmed[0]);
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -180,11 +70,17 @@ function getRandomInt(min, max) {
 function GenrateRandomSite()
 {
     
-        
+  
+      
+   
     var rand = getRandomInt(0,sites.length);
 
-
+    
+    document.getElementById("siteimg").src= "giphy.gif";
+      
+    setTimeout(() => {
     document.getElementById("site").innerHTML = sites[rand].name;
     document.getElementById("sitea").href=sites[rand].example; 
     document.getElementById("siteimg").src=sites[rand].imgSrc;
+   }, 2000);
 }
