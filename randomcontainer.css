@@ -2,41 +2,43 @@
 {
     border :0px;
     margin : auto ;
+    margin-top: 5px;
     display:flex;
     flex-direction:column;
     align-items:center;
     background-color :whitesmoke;
     justify-content:space-between;
     background-size: cover;
-    width:50%;
+    width:75%;
     border-radius : 100px;
-    height : 1000px;
-}
-#siteimg{
-    margin: 50px;
-    border-radius: 100px;
-    box-shadow: 25px 15px rgba(0, 0, 0, 0.5) ;
+    
 }
 #site{
     font-size: 60px;
     text-decoration: none;
     color:white;
+    
 }
-#sitea{
-    font-size: 50px;
-    text-decoration: none;
-    color:white;
-    margin-bottom: 10px;
 
+#siteimg{
+    margin: 50px;
+    margin-top: 1px;
+    border-radius: 100px;
+    box-shadow: 25px 15px rgba(0, 0, 0, 0.5) ;
+    margin-bottom: 0px;
+    
+    
 }
+
 #gnbtn{
-    font-size:50px;
+    font-size:20px;
     width: 300px;
     padding: 10px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.5);
     border-top: 3px solid rgba(0, 0, 0, 0.5);
     background-color:rgba(255,255,255, 0.65);;
-    margin : 40px;
+    margin-top: 40px;
     box-shadow: 10px;
+    margin-bottom: 40px;
     text-transform: capitalize;
 }
